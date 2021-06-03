@@ -14,3 +14,10 @@ Curso de Design Patterns em Java I: Introdução às boas práticas de programa�
 ### Aula 01.03 - Calculando impostos
 
 ### Aula 01.04 - Aplicando o pattern Strategy
+
+### Aula 01.05 - Propósito do pattern Strategy
+Todos os padrões de projeto definidos pela **Gang of Four (GoF)** possuem uma motivação: resolver um problema recorrente.
+
+Que tipo de problema o padrão Strategy visa resolver?
+
+`R:` A existência de diversos algoritmos para uma ação, resultando na possibilidade de vários ifs. Este padrão pode ser utilizado quando há diversos possíveis algoritmos para uma ação (como calcular imposto, por exemplo). Nele, nós separamos cada um dos possíveis algoritmos em classes separadas.
