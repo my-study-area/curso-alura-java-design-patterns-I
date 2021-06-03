@@ -21,3 +21,11 @@ Todos os padrões de projeto definidos pela **Gang of Four (GoF)** possuem uma m
 Que tipo de problema o padrão Strategy visa resolver?
 
 `R:` A existência de diversos algoritmos para uma ação, resultando na possibilidade de vários ifs. Este padrão pode ser utilizado quando há diversos possíveis algoritmos para uma ação (como calcular imposto, por exemplo). Nele, nós separamos cada um dos possíveis algoritmos em classes separadas.
+
+### Aula 01.06 - Para saber mais: Strategy
+
+Todo padrão de projeto possui sua explicação teórica com motivação, aplicação, seus participantes, consequências, etc.
+
+O livro Padrões de Projeto - Soluções reutilizáveis de software orientado a objetos é um catálogo para todos estes padrões, com todas as explicações necessárias.
+
+Caso não possa (ou não queira) ler o livro, existem sites que resumem cada um dos padrões. [ Aqui está um que é bastante utilizado, já na página específica sobre o Strategy](https://refactoring.guru/design-patterns/strategy).
