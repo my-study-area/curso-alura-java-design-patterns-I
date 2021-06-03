@@ -9,3 +9,5 @@ Curso de Design Patterns em Java I: Introdução às boas práticas de programa�
 - Os padrões de projetos, no livro, são divididos em 3 categorias: `criacionais`, `estruturais` e `comportamentais`.
 - No curso serão apresentados alguns padrões da categoria `comportamental`: `Strategy`, `Chain of Reposability`, `Template Method`, `State`, `Command` e `Observer`.
 
+### Aula 01.02 - Criando o projeto
+
