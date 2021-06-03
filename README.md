@@ -13,3 +13,4 @@ Curso de Design Patterns em Java I: Introdução às boas práticas de programa�
 
 ### Aula 01.03 - Calculando impostos
 
+### Aula 01.04 - Aplicando o pattern Strategy
