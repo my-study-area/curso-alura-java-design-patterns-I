@@ -39,3 +39,10 @@ Caso não possa (ou não queira) ler o livro, existem sites que resumem cada um 
   - Estruturais
   - Criacionais
 -  Como diminuir a complexidade do nosso código, trocando múltiplas condicionais por classes: esta técnica é chamada de `Strategy`, que é um dos padrões de projeto.
+
+## Módulo 02 - Chain of Resonsability
+
+### Aula 02.01 - Projeto da aula anterior
+
+### Aula 02.02 - Calculando descontos
+
