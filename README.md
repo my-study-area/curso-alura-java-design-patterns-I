@@ -56,3 +56,12 @@ Qual o problema real deste cenário, onde uma classe tem muitos if ou pode cresc
 `R:` Se eu precisar editar um pedaço de código, para implementar uma nova funcionalidade, as chances de quebrar funcionalidades existentes são grandes. Sempre que uma nova funcionalidade for implementada, o ideal é que possamos criar código novo e editar o mínimo possível de código já existente. Este é um dos principais pontos do princípio Aberto-Fechado (Open-Closed Principle) do SOLID. Ao editar código existente, podemos acabar quebrando funcionalidades já implementadas e funcionais.
 
 ### Aula 02.05 - Aplicando o pattern Chain of Responsibility
+
+### Aula 02.06 - Entendendo o pattern Chain of Responsibility
+
+### Aula 02.07 - Para saber mais: Chain of Responsibility
+Assim como qualquer outro conceito em computação, existe mais de uma forma de implementar o padrão de projeto Chain of Responsibility.
+
+Para saber mais sobre a parte teórica deste padrão, e analisar diferentes implementações, você pode conferir este link:
+
+[https://refactoring.guru/design-patterns/chain-of-responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility).
