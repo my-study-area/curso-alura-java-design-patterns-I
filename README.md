@@ -72,3 +72,9 @@ Para saber mais sobre a parte teórica deste padrão, e analisar diferentes impl
 - A diferenciar casos onde padrões semelhantes podem ser aplicados;
 - Como criar uma cadeia de possíveis algoritmos como `Chain of Responsibility`;
 - A utilizar o padrão para aplicar um desconto dentro de uma cadeia de possíveis descontos.
+
+## Módulo 03 - Template Method
+
+### Aula 03.01 - Projeto da aula anterior
+
+### Aula 03.02 - Aplicando o pattern Template Method
