@@ -78,3 +78,10 @@ Para saber mais sobre a parte teórica deste padrão, e analisar diferentes impl
 ### Aula 03.01 - Projeto da aula anterior
 
 ### Aula 03.02 - Aplicando o pattern Template Method
+
+### Aula 03.03 - Pattern Template Method
+Aplicamos o pattern Template Method com a criação de um método concreto na classe “mãe”, que chama métodos abstratos implementados nas classes _“filhas”_
+
+Qual a principal vantagem da utilização desse padrão?
+
+`R:` Reaproveitar trechos de códigos comuns, evitando duplicações. O padrão `Template Method` favorece o reaproveitamento de códigos comuns entre classes, evitando assim duplicações de códigos.
