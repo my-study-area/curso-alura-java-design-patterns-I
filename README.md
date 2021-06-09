@@ -100,3 +100,9 @@ Para entendê-lo melhor, você pode conferir este link: [https://refactoring.gur
 - Criamos um template de algoritmo que estava sendo replicado em mais de uma classe e utilizamos herança para reaproveitar esse código:
   - Aprendemos que a esta técnica foi dado o nome de Template Method;
 - Vimos que é possível aplicar mais de um padrão no mesmo código.
+
+## Módulo 04 - State
+
+### Aula 04.01 - Projeto da aula anterior
+
+### Aula 04.02 - Adicionando a situação do orçamento
