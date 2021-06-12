@@ -115,3 +115,12 @@ Vimos que o padrão State resolve um problema muito parecido com um problema res
 Que outro padrão seria esse?
 
 `R:` O padrão `State`, assim como o padrão `Strategy`, resolve o problema de muitos ifs no código.
+
+### Aula 04.05 - Entendendo o pattern State
+
+### Aula 04.06 - Para saber mais: State
+Para que você entenda melhor como aplicar o padrão State em outras situações, é interessante conhecer toda sua parte teórica, como motivação, aplicações, etc.
+
+Para isso, você pode conferir este link: [https://refactoring.guru/design-patterns/state](https://refactoring.guru/design-patterns/state).
+
+
