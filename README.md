@@ -108,3 +108,10 @@ Para entendê-lo melhor, você pode conferir este link: [https://refactoring.gur
 ### Aula 04.02 - Adicionando a situação do orçamento
 
 ### Aula 04.03 - Aplicando o pattern State
+
+### Aula 04.04 - Pattern State
+Vimos que o padrão State resolve um problema muito parecido com um problema resolvido por outro padrão.
+
+Que outro padrão seria esse?
+
+`R:` O padrão `State`, assim como o padrão `Strategy`, resolve o problema de muitos ifs no código.
