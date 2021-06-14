@@ -129,3 +129,9 @@ Para isso, você pode conferir este link: [https://refactoring.guru/design-patte
 - Que é possível que um objeto se comporte de formas diferentes, dependendo do seu estado;
 - Que, se o resultado de uma chamada de método depende do estado, podemos delegar esta ação para uma classe específica do estado atual.
 - Aprendemos que a esta técnica foi dado o nome de `State`.
+
+## Módulo 05 - Command
+
+### Aula 05.01 - Projeto da aula anterior
+
+### Aula 05.02 - Gerando um pedido
