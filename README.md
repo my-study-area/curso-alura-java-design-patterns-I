@@ -146,3 +146,10 @@ Qual o problema de ter um código arquitetado assim, recebendo os dados e execut
 `R:` Se fosse necessário executar o mesmo fluxo de outro lugar (web, API, filas), o código precisaria ser duplicado. Da forma como o código foi organizado, se precisássemos, além de executar a geração de pedido através da CLI, também executar através de um formulário web, uma API e/ou mensagens de uma fila, precisaríamos duplicar todo este código em vários lugares.
 
 ### Aula 05.05 - Command Handlers
+
+### Aula 05.06 - Para saber mais: Command
+O padrão de projetos **Command** é, provavelmente, um dos que mais gera confusão, principalmente no mundo de desenvolvimento web em geral, já que alguns conceitos mais específicos pro mundo da web surgiram.
+
+Para você entender melhor sobre o padrão _Command_ "original" (definido no livro da **GoF**), você pode dar uma olhada nesse link: [https://refactoring.guru/design-patterns/command](https://refactoring.guru/design-patterns/command).
+
+Também é muito interessante o estudo de alguns padrões de arquitetura de software, como **Domain Driven Design** e **Clean Architecture**, pois você vai esbarrar no padrão de _Command Handlers_ (que foi aplicado de forma bem simples nesta aula).
