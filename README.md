@@ -153,3 +153,11 @@ O padrão de projetos **Command** é, provavelmente, um dos que mais gera confus
 Para você entender melhor sobre o padrão _Command_ "original" (definido no livro da **GoF**), você pode dar uma olhada nesse link: [https://refactoring.guru/design-patterns/command](https://refactoring.guru/design-patterns/command).
 
 Também é muito interessante o estudo de alguns padrões de arquitetura de software, como **Domain Driven Design** e **Clean Architecture**, pois você vai esbarrar no padrão de _Command Handlers_ (que foi aplicado de forma bem simples nesta aula).
+
+### Aula 05.07 - Faça como eu fiz
+
+### Aula 05.08 - O que aprendemos?
+- Que um caso de uso em nossa aplicação pode ter várias ações (salvar no banco, enviar e-mail, etc);
+- Que um caso de uso deve ser extraído para uma classe específica, ao invés de estar no arquivo da CLI, controller ou algo do tipo;
+- Que a técnica de extração do caso de uso para uma classe específica pode ser chamada de padrão _Command_;
+- A diferença do padrão _Command_ da GoF para o padrão que utiliza _Command Handler_ (muito utilizado no padrão de arquitetura Domain Driven Design).
