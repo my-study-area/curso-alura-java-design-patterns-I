@@ -137,3 +137,10 @@ Para isso, você pode conferir este link: [https://refactoring.guru/design-patte
 ### Aula 05.02 - Gerando um pedido
 
 ### Aula 05.03 - Aplicando o pattern Command
+
+### Aula 05.04 - Problemas com o código
+O código criado até aqui é comumente encontrado em sistemas reais. A diferença é que, ao invés de estar em um arquivo rodado na CLI, está em algum Controller ou algo do tipo.
+
+Qual o problema de ter um código arquitetado assim, recebendo os dados e executando todas as tarefas no mesmo local?
+
+`R:` Se fosse necessário executar o mesmo fluxo de outro lugar (web, API, filas), o código precisaria ser duplicado. Da forma como o código foi organizado, se precisássemos, além de executar a geração de pedido através da CLI, também executar através de um formulário web, uma API e/ou mensagens de uma fila, precisaríamos duplicar todo este código em vários lugares.
