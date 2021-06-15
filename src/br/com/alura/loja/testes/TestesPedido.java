@@ -1,6 +1,7 @@
 package br.com.alura.loja.testes;
 
 import br.com.alura.loja.orcamento.Orcamento;
+import br.com.alura.loja.pedido.GeraPedidoHandler;
 import br.com.alura.loja.pedido.GeradorPedido;
 import br.com.alura.loja.pedido.Pedido;
 
@@ -14,6 +15,7 @@ public class TestesPedido {
         int quantidadeItens = Integer.parseInt(args[2]);
 
         GeradorPedido geradorPedido = new GeradorPedido(cliente, valorOrcamento, quantidadeItens);
-        geradorPedido.executar();
+        GeraPedidoHandler handler = new GeraPedidoHandler();
+        handler.executar(geradorPedido);
     }
 }

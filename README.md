@@ -144,3 +144,5 @@ O código criado até aqui é comumente encontrado em sistemas reais. A diferen�
 Qual o problema de ter um código arquitetado assim, recebendo os dados e executando todas as tarefas no mesmo local?
 
 `R:` Se fosse necessário executar o mesmo fluxo de outro lugar (web, API, filas), o código precisaria ser duplicado. Da forma como o código foi organizado, se precisássemos, além de executar a geração de pedido através da CLI, também executar através de um formulário web, uma API e/ou mensagens de uma fila, precisaríamos duplicar todo este código em vários lugares.
+
+### Aula 05.05 - Command Handlers
