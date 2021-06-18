@@ -167,3 +167,12 @@ Também é muito interessante o estudo de alguns padrões de arquitetura de soft
 ### Aula 06.01 - Projeto da aula anterior
 
 ### Aula 06.02 - Ações após gerar um pedido
+
+### Aula 06.03 - Muitas responsabilidades
+Um **Command Handler** tem como responsabilidade, normalmente, apenas orquestrar as tarefas a serem executadas, ou seja, chamar as classes necessárias que realizam as tarefas desejadas. No nosso caso, o **Command Handler** tinha todo o código do fluxo em seu corpo.
+
+Por quais motivos separar cada uma das tarefas em classes distintas é benéfico?
+
+`R:` Porque, com classes menores e mais concisas, é mais fácil encontrar possíveis problemas. Se em algum momento uma das tarefas parar de funcionar, nós sabemos que há uma classe específica para este propósito e podemos começar a depuração por ela.
+
+`R:` Porque a implementação de cada tarefa pode mudar com o tempo e o Command Handler não deve precisar saber disso. Imagine que a ferramenta utilizada para enviar e-mails mude depois de alguns anos. O nosso Command Handler não precisa saber deste detalhe específico, então é interessante que cada classe seja responsável apenas por uma pequena tarefa.
