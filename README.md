@@ -186,3 +186,15 @@ O padrão **Observer** é comumente utilizado por diversas bibliotecas que traba
 A forma como o padrão foi implementado aqui na aula é a mais simples e pura, mas existem diversas modificações que podem ser feitas.
 
 Para entender mais sobre a teoria deste padrão, você pode conferir este link: [https://refactoring.guru/design-patterns/observer](https://refactoring.guru/design-patterns/observer).
+
+### Aula 06.06 - Faça como eu fiz
+
+### Aula 06.07 - Projeto do curso
+
+### Aula 06.08 - O que aprendemos?
+- Que deixar a implementação de todas as tarefas de um caso de uso da aplicação na mesma classe pode trazer problemas:
+  - Dificuldade de manutenção;
+  - Classes muito grandes e difíceis de ler;
+  - Problemas quando precisar alterar a implementação de uma das tarefas.
+- Que é mais interessante separar cada ação em uma classe separada;
+- Como ligar um evento ocorrido com suas ações, através do padrão **Observer**.
