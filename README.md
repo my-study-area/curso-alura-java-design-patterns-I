@@ -176,3 +176,5 @@ Por quais motivos separar cada uma das tarefas em classes distintas é benéfico
 `R:` Porque, com classes menores e mais concisas, é mais fácil encontrar possíveis problemas. Se em algum momento uma das tarefas parar de funcionar, nós sabemos que há uma classe específica para este propósito e podemos começar a depuração por ela.
 
 `R:` Porque a implementação de cada tarefa pode mudar com o tempo e o Command Handler não deve precisar saber disso. Imagine que a ferramenta utilizada para enviar e-mails mude depois de alguns anos. O nosso Command Handler não precisa saber deste detalhe específico, então é interessante que cada classe seja responsável apenas por uma pequena tarefa.
+
+### Aula 06.04 - Aplicando o pattern Observer
