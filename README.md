@@ -178,3 +178,11 @@ Por quais motivos separar cada uma das tarefas em classes distintas é benéfico
 `R:` Porque a implementação de cada tarefa pode mudar com o tempo e o Command Handler não deve precisar saber disso. Imagine que a ferramenta utilizada para enviar e-mails mude depois de alguns anos. O nosso Command Handler não precisa saber deste detalhe específico, então é interessante que cada classe seja responsável apenas por uma pequena tarefa.
 
 ### Aula 06.04 - Aplicando o pattern Observer
+
+### Aula 06.05 - Para saber mais: Observer
+
+O padrão **Observer** é comumente utilizado por diversas bibliotecas que trabalham com eventos. Muitas tecnologias em Java, como o Spring e o CDI, possuem componentes que nos auxiliam a trabalhar com eventos.
+
+A forma como o padrão foi implementado aqui na aula é a mais simples e pura, mas existem diversas modificações que podem ser feitas.
+
+Para entender mais sobre a teoria deste padrão, você pode conferir este link: [https://refactoring.guru/design-patterns/observer](https://refactoring.guru/design-patterns/observer).
