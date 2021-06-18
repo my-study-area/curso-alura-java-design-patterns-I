@@ -161,3 +161,9 @@ Também é muito interessante o estudo de alguns padrões de arquitetura de soft
 - Que um caso de uso deve ser extraído para uma classe específica, ao invés de estar no arquivo da CLI, controller ou algo do tipo;
 - Que a técnica de extração do caso de uso para uma classe específica pode ser chamada de padrão _Command_;
 - A diferença do padrão _Command_ da GoF para o padrão que utiliza _Command Handler_ (muito utilizado no padrão de arquitetura Domain Driven Design).
+
+## Módulo 06 - Observer
+
+### Aula 06.01 - Projeto da aula anterior
+
+### Aula 06.02 - Ações após gerar um pedido
